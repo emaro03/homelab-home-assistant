@@ -1,6 +1,6 @@
 # Home Assistant — Smart Home + Zigbee Mesh Diagnostics
 
-> Part of [homelab-hub](https://github.com/YOUR_USERNAME/homelab-hub). Home Assistant instance (v2026.8.1) with door/motion sensors over Zigbee, plus a diagnostic audit of the mesh network itself.
+> Part of [homelab-hub](https://github.com/emaro03/homelab-hub). Home Assistant instance (v2026.8.1) with door/motion sensors over Zigbee, plus a diagnostic audit of the mesh network itself.
 
 ## Overview
 
