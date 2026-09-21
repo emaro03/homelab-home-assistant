@@ -1,0 +1,15 @@
+# Sanitized example automation — door sensor triggers a notification
+# Replace entity_ids with your real ones (or keep generic like this for the public repo)
+
+- alias: "Front Door Opened Notification"
+  trigger:
+    - platform: state
+      entity_id: binary_sensor.front_door
+      to: "on"
+  condition: []
+  action:
+    - service: notify.mobile_app_your_phone
+      data:
+        title: "Front door"
+        message: "Front door was opened at {{ now().strftime('%H:%M') }}"
+  mode: single
